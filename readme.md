@@ -10,8 +10,8 @@ in the linked list.
 
 ## Whiteboard Problem 01 solution:
 
-* ```
-function contains(list, value) {
+ 
+`function contains(list, value) {
     let current = list.root
     while(current) {
         if (current.val === value) {
@@ -21,4 +21,4 @@ function contains(list, value) {
     }
     return false
 };
-```
+`
