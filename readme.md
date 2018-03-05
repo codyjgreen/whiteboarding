@@ -10,13 +10,15 @@ in the linked list.
 
 ## Whiteboard Problem 01 solution:
 
-* function contains(list, value) {
+* ```
+function contains(list, value) {
     let current = list.root
-    while(current !== null) {
-        if current = (value) {
+    while(current) {
+        if (current.val === value) {
             return true
         }
         current = current.next
     }
     return false
 };
+```
