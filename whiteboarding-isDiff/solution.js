@@ -1,6 +1,6 @@
 'use strict';
-let obj1 = {'foo': 'bar'};
-let obj2 = {'foo': 'pop'};
+let obj1 = {foo: 'bar'};
+let obj2 = {foo: 'pop'};
 
 function isDiff(obj1, obj2, isTwisted = false){
 
